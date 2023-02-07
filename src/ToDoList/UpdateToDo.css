@@ -1,0 +1,128 @@
+.searchInputs {
+    margin-top: 10px;
+    display: flex;
+}
+
+.search input {
+    background-color: rgb(207, 202, 202);
+    border: 0;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 300px;
+}
+
+.searchIcon {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(207, 202, 202);
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchIcon svg {
+    font-size: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.submitContainer {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 5px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.add-form {
+    margin-bottom: 40px;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+.form-control label {
+    display: block;
+}
+
+.form-control input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+
+.popup-btn {
+    height: 3em;
+    width: 10em;
+
+    border-radius: 1em;
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+
+    padding: .25em;
+
+   
+    border: .25em solid transparent;
+
+    background:
+    
+        linear-gradient(to bottom, #fff, #bbb) content-box,
+ 
+        linear-gradient(to right, #e94332, #a91302) padding-box,
+ 
+        linear-gradient(to right, #0867a6, #4aa9e8) border-box;
+}
